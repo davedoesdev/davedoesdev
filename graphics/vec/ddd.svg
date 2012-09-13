@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="106.71429"
-   height="106.71429"
+   width="105.71429"
+   height="105.71429"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="204.46234"
-     inkscape:cy="152.22288"
+     inkscape:cx="203.96234"
+     inkscape:cy="151.72288"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,9 +55,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-170.53766,-577.87079)">
+     transform="translate(-171.03766,-578.37079)">
     <rect
-       style="fill:#aee239;fill-opacity:1;stroke:#556270;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#4e4e4e;fill-opacity:1;stroke:none"
        id="rect3767"
        width="105.71429"
        height="105.71429"
@@ -65,7 +65,7 @@
        y="578.37079" />
     <text
        xml:space="preserve"
-       style="font-size:108px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f9f2e7;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+       style="font-size:108px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ace036;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
        x="222.07547"
        y="669.8822"
        id="text3775"
