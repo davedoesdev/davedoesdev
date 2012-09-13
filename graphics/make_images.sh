@@ -5,3 +5,4 @@ do
   inkscape -e ddd-${d}x${d}.png -w $d -h $d vec/ddd.svg
 done
 png2ico ddd.ico ddd-*.png
+cp ddd.ico ../media/favicon.ico
