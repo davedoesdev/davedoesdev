@@ -32,8 +32,8 @@
      showgrid="false"
      inkscape:window-width="1035"
      inkscape:window-height="784"
-     inkscape:window-x="72"
-     inkscape:window-y="87"
+     inkscape:window-x="73"
+     inkscape:window-y="48"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -57,7 +57,7 @@
      id="layer1"
      transform="translate(-170.53125,-571.75)">
     <rect
-       style="fill:#c7f464;fill-opacity:1;stroke:#556270;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#aee239;fill-opacity:1;stroke:#556270;stroke-linejoin:miter;stroke-opacity:1"
        id="rect3767"
        width="105.71429"
        height="105.71429"
@@ -65,7 +65,7 @@
        y="572.25934" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans;font-stretch:normal;font-variant:normal;writing-mode:lr"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="223.10379"
        y="614.69653"
        id="text3811"
@@ -73,10 +73,10 @@
          sodipodi:role="line"
          x="223.10379"
          y="614.69653"
-         id="tspan3754">DD</tspan><tspan
+         id="tspan3758">dev</tspan><tspan
          sodipodi:role="line"
          x="223.10379"
          y="664.69653"
-         id="tspan3758">D</tspan></text>
+         id="tspan3757">dave</tspan></text>
   </g>
 </svg>
