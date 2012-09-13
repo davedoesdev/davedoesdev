@@ -1,0 +1,2 @@
+Relies on lessc - use "npm install less" to get it into this directory.
+It's ignored in .gitignore
