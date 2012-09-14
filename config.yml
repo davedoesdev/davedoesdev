@@ -2,7 +2,7 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : my_twitter
+theme : my_hooligan
 production_url : http://sample.com
 
 posts:
