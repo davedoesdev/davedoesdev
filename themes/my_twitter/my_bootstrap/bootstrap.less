@@ -8,9 +8,9 @@
 // --------------------------------------------------
 
 // Links
-@linkColor:             #ACE036;
+@linkColor:             darken(#ACE036, 20%);
 //@linkColorHover:        darken(@linkColor, 15%);
-@linkColorHover:        #40C0CB;
+@linkColorHover:        darken(#40C0CB, 20%);
 
 // Grays
 @black:                 #A4A4A5;
@@ -36,7 +36,8 @@
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor:             @grayDark;
+//@textColor:             @grayDark;
+@textColor:             black;
 
 // Typography
 // -------------------------
@@ -159,7 +160,7 @@
 
 @navbarText:                      @gray;
 @navbarLinkColor:                 @gray;
-@navbarLinkColorHover:            @linkColorHover;
+@navbarLinkColorHover:            lighten(@linkColorHover, 20%);
 @navbarLinkColorActive:           @grayLighter;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
