@@ -58,11 +58,15 @@ h2 {
   font-size: 30px;
 }
 
+strong {
+  color: #d8d8d8;
+}
+
 pre, code {
   color:#ccc;
 }
 
-pre > code {
+pre code {
   /* Reset box-shadow for pygments */
   background:none;
   box-shadow:none;
