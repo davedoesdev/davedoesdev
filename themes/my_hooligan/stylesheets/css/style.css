@@ -40,10 +40,10 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 h1, h2 {
   margin: 0 0 15px; }
 
-h1 {
+h1, h1 code {
   font-size: 40px; }
 
-h2 {
+h2, h2 code {
   font-size: 30px; }
 
 strong {
@@ -52,7 +52,7 @@ strong {
 pre, code {
   color: #ccc; }
 
-pre code {
+pre code, h1 code, h2 code {
   /* Reset box-shadow for pygments */
   background: none;
   box-shadow: none;
