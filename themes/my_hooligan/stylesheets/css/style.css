@@ -217,6 +217,10 @@ div.content div#page-index {
 .zocial.linkedin:hover {
   color: #50a1cb !important; }
 
+.zocial.rss:focus,
+.zocial.rss:hover {
+  color: #fb9e3c !important; }
+
 /* Layout */
 .navbar {
   margin-bottom: 0; }
