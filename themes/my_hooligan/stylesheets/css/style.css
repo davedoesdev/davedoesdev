@@ -62,9 +62,8 @@ pre code, h1 code, h2 code {
 
 hr {
   border: none;
-  background: #000;
-  height: 1px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  background: rgba(0, 0, 0, 0.7);
+  height: 1px; }
 
 /* Layout */
 .navbar {
@@ -88,24 +87,6 @@ hr {
   text-align: center;
   /* center align it with the container */ }
 
-div.sidebar {
-  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  background: #202020;
-  background-color: rgba(0, 0, 0, 0.3);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px; }
-  div.sidebar h2, div.sidebar p {
-    padding: 15px; }
-  div.sidebar h2 {
-    padding-bottom: 0; }
-  div.sidebar p {
-    padding-top: 0; }
-
 /* Page Content */
 .content {
   /* when there's no page-header */
@@ -121,6 +102,11 @@ div.sidebar {
     margin-top: 10px; }
     .content div.row div.span4 h4:first {
       margin-top: 0; }
+
+p {
+  padding-bottom: 15px;
+  line-height: 25px;
+  margin: 0; }
 
 /* Page header tweaks */
 .page-header {
@@ -166,19 +152,25 @@ a.btn, a.btn.disabled {
   a.btn.disabled, a.btn.disabled.disabled {
     color: rgba(255, 255, 255, 0.3); }
 
-/* tag_box ======================================================== */
+/* Tags */
 .tag_box {
   list-style: none;
   margin: 0;
   padding: 5px 0;
   overflow: hidden; }
+  .tag_box.inline li {
+    float: left; }
+  .tag_box li {
+    line-height: 28px; }
+  .tag_box a.active {
+    background: #57A957;
+    border: 1px solid #4C964D;
+    color: #FFF; }
+  .tag_box a span {
+    vertical-align: super;
+    font-size: 0.8em; }
 
-.tag_box li {
-  line-height: 28px; }
-
-.tag_box.inline li {
-  float: left; }
-
+.tag_box.inline a,
 .tag_box a {
   padding: 3px 6px;
   margin: 2px;
@@ -189,15 +181,9 @@ a.btn, a.btn.disabled {
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0, rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset; }
-
-.tag_box a span {
-  vertical-align: super;
-  font-size: 0.8em; }
-
-.tag_box a.active {
-  background: #57A957;
-  border: 1px solid #4C964D;
-  color: #FFF; }
+  .tag_box.inline a:hover,
+  .tag_box a:hover {
+    background: rgba(255, 255, 255, 0.3); }
 
 /* Page-specific */
 div.content div#page-index {
@@ -222,22 +208,7 @@ div.content div#page-index {
 
 .zocial.rss:focus,
 .zocial.rss:hover {
-  color: #fb9e3c !important; }
-
-/* Layout */
-.navbar {
-  margin-bottom: 0; }
-  .navbar div.navbar-inner {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0; }
-  .navbar ul.social {
-    /* Hide social menu on low-res screens */ }
-    @media (max-width: 979px) {
-      .navbar ul.social {
-        display: none !important; } }
+  color: #fb9d3a !important; }
 
 /* Responsive Overrides */
 @media (max-width: 767px) {

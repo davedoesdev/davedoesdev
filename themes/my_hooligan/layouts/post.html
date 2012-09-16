@@ -37,15 +37,27 @@ layout : default
   </div>
   
   <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date }}</span></div>
+    <section>
+      <h4>Published</h4>
+      <div class="date"><span>{{ page.date }}</span></div>
+    </section>
 
-    <h4>Tags</h4>
-    <ul class="tag_box">
-      {{# page.tags?to_tags }}
-        {{> tags_list }}
-      {{/ page.tags?to_tags }}
-    </ul>
-    
+    <section>
+      <h4>Tags</h4>
+      <ul class="tag_box">
+        {{# page.tags?to_tags }}
+          {{> tags_list }}
+        {{/ page.tags?to_tags }}
+      </ul>
+    </section>
+
+    <section>
+      <h4>Categories</h4>
+      <ul class="tag_box">
+        {{# page.categories?to_categories }}
+          {{> categories_list }}
+        {{/ page.categories?to_categories }}
+      </ul>
+    </section>
   </div>
 </div>
