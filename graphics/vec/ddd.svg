@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="203.96234"
-     inkscape:cy="151.72288"
+     inkscape:cx="386.81948"
+     inkscape:cy="-165.41997"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,29 +55,24 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-171.03766,-578.37079)">
+     transform="translate(11.819484,-261.22794)">
     <rect
        style="fill:#2a2a2a;fill-opacity:1;stroke:none"
        id="rect3767"
        width="105.71429"
        height="105.71429"
-       x="171.03766"
-       y="578.37079" />
+       x="-11.819484"
+       y="261.22794" />
     <text
        xml:space="preserve"
-       style="font-size:108px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
-       x="629.40857"
-       y="262.5491"
-       id="text3775"
-       sodipodi:linespacing="125%"
-       transform="matrix(0,1,1,0,0,0)"><tspan
+       style="font-size:90px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono"
+       x="-23.869568"
+       y="338.69446"
+       id="text2986"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="629.40857"
-         y="262.5491"
-         id="tspan3809">D</tspan><tspan
-         sodipodi:role="line"
-         x="629.40857"
-         y="397.5491"
-         id="tspan3799" /></text>
+         id="tspan2988"
+         x="-23.869568"
+         y="338.69446">:w</tspan></text>
   </g>
 </svg>
