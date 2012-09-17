@@ -189,6 +189,7 @@ a.btn, a.btn.disabled {
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 
   &:hover {
+    color: rgba(255, 255, 255, 1.0);
     background:rgba(255,255,255, 0.05);
   }
   &.disabled {

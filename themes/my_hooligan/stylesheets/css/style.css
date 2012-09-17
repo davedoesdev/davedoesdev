@@ -147,6 +147,7 @@ a.btn, a.btn.disabled {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0, rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset; }
   a.btn:hover, a.btn.disabled:hover {
+    color: white;
     background: rgba(255, 255, 255, 0.05); }
   a.btn.disabled, a.btn.disabled.disabled {
     color: rgba(255, 255, 255, 0.3); }
