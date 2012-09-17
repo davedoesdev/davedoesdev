@@ -87,7 +87,7 @@ hr {
   text-align: center;
   /* center align it with the container */ }
 
-/* Page Content */
+/* Content */
 .content {
   /* when there's no page-header */
   /* Wide column content */ }
@@ -102,11 +102,10 @@ hr {
     margin-top: 10px; }
     .content div.row div.span4 h4:first {
       margin-top: 0; }
-
-p {
-  padding-bottom: 15px;
-  line-height: 25px;
-  margin: 0; }
+  .content p {
+    padding-bottom: 15px;
+    line-height: 25px;
+    margin: 0; }
 
 /* Page header tweaks */
 .page-header {
@@ -229,6 +228,12 @@ article.post header {
   margin-bottom: 10px; }
   article.post header h1, article.post header h2 {
     margin: 0; }
+  article.post header .category {
+    display: inline-block;
+    color: white;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 6px;
+    margin-left: 3px; }
 
 div.posts article div.date {
   font-size: 10px;
@@ -245,3 +250,5 @@ div.posts article div.date {
     -o-border-radius: 5px;
     border-radius: 5px;
     padding: 5px 10px; }
+
+/* This is for your Custom Content. */

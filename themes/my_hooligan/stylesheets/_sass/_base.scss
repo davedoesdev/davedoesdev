@@ -108,7 +108,9 @@ hr {
   text-align: center; /* center align it with the container */
 }
 
-/* Page Content */
+
+
+/* Content */
 .content {
   img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
@@ -133,12 +135,11 @@ hr {
       }
     }  
   }
-}
-
-p {
-  padding-bottom:15px;
-  line-height:25px;
-  margin: 0;
+  p {
+    padding-bottom:15px;
+    line-height:25px;
+    margin:0;
+  }
 }
 
 /* Page header tweaks */
