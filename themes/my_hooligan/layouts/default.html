@@ -45,6 +45,34 @@
               {{# site.navigation?to_pages }}
                 {{> pages_list }}
               {{/ site.navigation?to_pages }}
+              {{# site.author.github }}
+                <li>
+                  <a href="https://www.github.com/{{ site.author.github }}" class="hidden-desktop" target="_blank">Github</a>
+                </li>
+              {{/ site.author.github }}
+              {{# site.author.googleplus }}
+                <li>
+                  <a href="https://profiles.google.com/{{ site.author.googleplus }}" class="hidden-desktop" target="_blank">Google+</a>
+                </li>
+              {{/ site.author.googleplus }}
+              {{# site.author.twitter }}
+                <li>
+                  <a href="http://www.twitter.com/{{ site.author.twitter }}" class="hidden-desktop" target="_blank">Twitter</a>
+                </li>
+              {{/ site.author.twitter }}
+              {{# site.author.facebook }}
+                <li>
+                  <a href="http://www.facebook.com/{{ site.author.facebook }}" class="hidden-desktop" target="_blank">Facebook</a>
+                </li>
+              {{/ site.author.facebook }}
+              {{# site.author.linkedin }}
+                <li>
+                  <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="hidden-desktop" target="_blank">LinkedIn</a>
+                </li>
+              {{/ site.author.linkedin }}
+              <li>
+                <a href="/rss.xml" class="hidden-desktop" target="_blank">RSS</a>
+              </li>
             </ul>
             <ul class="nav pull-right social visible-desktop">
               <li class="divider-vertical"></li>
