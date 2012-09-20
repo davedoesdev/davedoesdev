@@ -102,10 +102,18 @@ hr {
     margin-top: 10px; }
     .content div.row div.span4 h4:first {
       margin-top: 0; }
+  .content p, .content li {
+    line-height: 25px; }
   .content p {
-    padding-bottom: 15px;
-    line-height: 25px;
-    margin: 0; }
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .content ol ol {
+    list-style: lower-roman; }
+  .content ul ul li,
+  .content ul ol li,
+  .content ol ul li,
+  .content ol ol li {
+    padding-bottom: 10px; }
 
 /* Page header tweaks */
 .page-header {

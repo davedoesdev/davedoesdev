@@ -135,10 +135,21 @@ hr {
       }
     }  
   }
-  p {
-    padding-bottom:15px;
+  p, li {
     line-height:25px;
-    margin:0;
+  }
+  p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  ol ol {
+    list-style: lower-roman;
+  }
+  ul ul li,
+  ul ol li,
+  ol ul li,
+  ol ol li {
+    padding-bottom: 10px;
   }
 }
 
