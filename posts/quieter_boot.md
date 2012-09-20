@@ -161,6 +161,3 @@ The effect of this is that the following are shown before kexec-loader starts:
 After kexec-loader starts, and until X comes up, only the welcome message is
 displayed.
 
-If you wanted to do more, you could clear the screen in the Syslinux display
-file and remove the copyright messages from Syslinux and FreeDOS.
-
