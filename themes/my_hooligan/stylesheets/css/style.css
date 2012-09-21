@@ -6,7 +6,7 @@
 /* Override some defaults */
 html, body {
   background-color: #2a2a2a;
-  background: url(../../media/bgs/body.png) repeat; }
+  background: url(../images/bgs/body.png) repeat; }
 
 body {
   color: #bbb;
@@ -45,9 +45,6 @@ h1, h1 code {
 
 h2, h2 code {
   font-size: 30px; }
-
-strong {
-  color: #d8d8d8; }
 
 pre, code {
   color: #ccc; }
@@ -102,18 +99,10 @@ hr {
     margin-top: 10px; }
     .content div.row div.span4 h4:first {
       margin-top: 0; }
-  .content p, .content li {
-    line-height: 25px; }
   .content p {
-    padding-top: 5px;
-    padding-bottom: 5px; }
-  .content ol ol {
-    list-style: lower-roman; }
-  .content ul ul li,
-  .content ul ol li,
-  .content ol ul li,
-  .content ol ol li {
-    padding-bottom: 10px; }
+    padding-bottom: 15px;
+    line-height: 25px;
+    margin: 0; }
 
 /* Page header tweaks */
 .page-header {
@@ -155,7 +144,6 @@ a.btn, a.btn.disabled {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0, rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset; }
   a.btn:hover, a.btn.disabled:hover {
-    color: white;
     background: rgba(255, 255, 255, 0.05); }
   a.btn.disabled, a.btn.disabled.disabled {
     color: rgba(255, 255, 255, 0.3); }
@@ -261,3 +249,24 @@ div.posts article div.date {
     padding: 5px 10px; }
 
 /* This is for your Custom Content. */
+html, body {
+  background: url(../../media/bgs/body.png) repeat; }
+
+strong {
+  color: #d8d8d8; }
+
+.content p, .content li {
+  line-height: 25px; }
+.content p {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+.content ol ol {
+  list-style: lower-roman; }
+.content ul ul li,
+.content ul ol li,
+.content ol ul li,
+.content ol ol li {
+  padding-bottom: 10px; }
+
+a.btn:hover, a.btn.disabled:hover {
+  color: white; }

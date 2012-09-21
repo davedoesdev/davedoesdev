@@ -12,7 +12,7 @@ $default-box-shadow-blur: 1px;
 /* Override some defaults */ 
 html, body {
   background-color: #2a2a2a;
-  background: url(../../media/bgs/body.png) repeat ;
+  background: url(../images/bgs/body.png) repeat ;
 }
  
 body {
@@ -56,10 +56,6 @@ h1, h1 code {
 
 h2, h2 code {
   font-size: 30px;
-}
-
-strong {
-  color: #d8d8d8;
 }
 
 pre, code {
@@ -135,21 +131,10 @@ hr {
       }
     }  
   }
-  p, li {
-    line-height:25px;
-  }
   p {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  ol ol {
-    list-style: lower-roman;
-  }
-  ul ul li,
-  ul ol li,
-  ol ul li,
-  ol ol li {
-    padding-bottom: 10px;
+    padding-bottom:15px;
+    line-height:25px;
+    margin:0;
   }
 }
 
@@ -200,7 +185,6 @@ a.btn, a.btn.disabled {
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 
   &:hover {
-    color: rgba(255, 255, 255, 1.0);
     background:rgba(255,255,255, 0.05);
   }
   &.disabled {
@@ -286,4 +270,3 @@ div.content {
 .zocial.rss:hover {
   color:#fb9d3a !important;
 }
-
