@@ -3,11 +3,11 @@
 
 RuhohSpec: '1.0'
 theme : my_hooligan
-production_url : http://sample.com
+production_url : http://www.davedoesdev.com
 
 posts:
   permalink: /:categories/:title/
-  summary_lines: 20
+  summary_lines: 10
   latest: 10
 
 pages:
