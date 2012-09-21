@@ -270,3 +270,9 @@ strong {
 
 a.btn:hover, a.btn.disabled:hover {
   color: white; }
+
+.post {
+  margin-bottom: 20px; }
+
+.post > .title::before {
+  content: "> "; }

@@ -32,3 +32,12 @@ a.btn, a.btn.disabled {
     color: rgba(255, 255, 255, 1.0);
   }
 }
+
+.post {
+  margin-bottom: 20px;
+}
+
+.post > .title::before
+{
+  content: "> ";
+}
