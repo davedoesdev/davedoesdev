@@ -42,7 +42,22 @@ a.btn, a.btn.disabled {
   content: "> ";
 }
 
+.post > .title
+{
+  padding-bottom: 5px;
+}
+
 ul, ol
 {
   margin-bottom: 0px;
+}
+
+h1, h2
+{
+  margin-top: 15px;
+}
+
+h1:first-child, h2:first-child
+{
+  margin-top: 0px;
 }
