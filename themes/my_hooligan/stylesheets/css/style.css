@@ -288,3 +288,6 @@ h1, h2 {
 
 h1:first-child, h2:first-child {
   margin-top: 0px; }
+
+pre.prettyprint {
+  margin-top: 18px; }
