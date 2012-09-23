@@ -13,7 +13,7 @@ I could have taken the easy route and put [Usplash](https://launchpad.net/usplas
 or [Splashy](http://alioth.debian.org/projects/splashy/) into [Tiny Core Linux](http://distro.ibiblio.org/tinycorelinux/)
 on my USB stick.
 
-But no! I took another route. I decided to use
+But no! I took another route. I used
 [Zgv](http://www.svgalib.org/rus/zgv/). Zgv is an [SVGAlib](http://www.svgalib.org)-based image viewer,
 so it runs on the Linux console. Feed it an image early on in the Tiny
 Core __init.d__ scripts and voila, a splash screen!
