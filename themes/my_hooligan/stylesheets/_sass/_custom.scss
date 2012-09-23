@@ -47,6 +47,23 @@ a.btn, a.btn.disabled {
   padding-bottom: 5px;
 }
 
+.post {
+  @include box-shadow(
+     rgba(255, 255, 255, 0.1) 0 1px 0, 
+     rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset
+  );
+  background: ligthen(#202020, 10%);
+  background-color: lighten(rgba(0, 0, 0, 0.3), 10%);
+  border:none;
+  padding: 10px 20px 10px;
+  margin: 0px -20px 20px;
+  @include border-top-left-radius;
+  @include border-top-right-radius;
+  @include border-bottom-left-radius;
+  @include border-bottom-right-radius;
+}
+
+
 ul, ol
 {
   margin-bottom: 0px;
