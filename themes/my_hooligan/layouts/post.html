@@ -12,10 +12,10 @@ layout : default
 </div>
 
 <div class="row">
-  <div class="span8">
+  <div class="span9">
     {{{ content }}}
     <hr>
-    <div class="pagination btn-group">
+    <div class="pagination pagination-centered btn-group">
       {{# page?previous }}
         <a class="btn prev" href="{{ url }}" title="{{ title }}">&larr; Previous</a>
       {{/ page?previous }}
@@ -23,7 +23,7 @@ layout : default
         <a class="btn disabled prev">&larr; Previous</a>
       {{/ page?previous }}
 
-        <a class="btn" href="{{ site.JB.archive_path }}">Archive</a>
+        <a class="btn" href="/archive">Archive</a>
 
       {{# page?next }}
         <a class="btn next" href="{{ url }}" title="{{ title }}">Next &rarr;</a>
@@ -36,27 +36,27 @@ layout : default
     {{{ comments }}}
   </div>
   
-  <div class="span4">
+  <div class="span3">
     <section>
       <h4>Published</h4>
       <div class="date"><span>{{ page.date }}</span></div>
     </section>
 
-    <section>
-      <h4>Tags</h4>
-      <ul class="tag_box">
-        {{# page.tags?to_tags }}
-          {{> tags_list }}
-        {{/ page.tags?to_tags }}
-      </ul>
-    </section>
-
-    <section>
+    <section {{^ page.categories?to_categories }}class="tag_box_empty" {{/ page.categories?to_categories }} >
       <h4>Categories</h4>
       <ul class="tag_box">
         {{# page.categories?to_categories }}
           {{> categories_list }}
         {{/ page.categories?to_categories }}
+      </ul>
+    </section>
+
+    <section {{^ page.tags?to_tags }}class="tag_box_empty" {{/ page.tags?to_tags }} >
+      <h4>Tags</h4>
+      <ul class="tag_box">
+        {{# page.tags?to_tags }}
+          {{> tags_list }}
+        {{/ page.tags?to_tags }}
       </ul>
     </section>
   </div>

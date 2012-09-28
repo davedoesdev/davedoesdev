@@ -83,3 +83,13 @@ pre.prettyprint
 {
   margin-top: 18px;
 }
+
+.pagination a, .btn-group > .btn
+{
+  float: none;
+}
+
+.tag_box_empty
+{
+  display: none;
+}
