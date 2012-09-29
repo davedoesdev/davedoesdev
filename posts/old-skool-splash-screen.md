@@ -3,6 +3,7 @@ title: Old Skool Splash Screen
 date: '2012-09-22'
 description:
 categories:
+tags: [boot, svgalib, graphics, tinycorelinux]
 ---
 
 After I [got rid of most boot messages](/quieter-boot), I wanted to display a
