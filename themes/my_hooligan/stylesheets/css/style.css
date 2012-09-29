@@ -317,5 +317,8 @@ pre.prettyprint {
 .pagination a, .btn-group > .btn {
   float: none; }
 
-.tag_box_empty {
+.tag_box_container {
+  padding: 10px 0; }
+
+.tag_box_container_empty {
   display: none; }

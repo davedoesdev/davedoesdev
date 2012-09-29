@@ -42,7 +42,7 @@ layout : default
       <div class="date"><span>{{ page.date }}</span></div>
     </section>
 
-    <section {{^ page.categories?to_categories }}class="tag_box_empty" {{/ page.categories?to_categories }} >
+    <section class="tag_box_container{{^ page.categories?to_categories }}_empty{{/ page.categories?to_categories }}" >
       <h4>Categories</h4>
       <ul class="tag_box">
         {{# page.categories?to_categories }}
@@ -51,7 +51,7 @@ layout : default
       </ul>
     </section>
 
-    <section {{^ page.tags?to_tags }}class="tag_box_empty" {{/ page.tags?to_tags }} >
+    <section class="tag_box_container{{^ page.tags?to_tags }}_empty{{/ page.tags?to_tags }}" >
       <h4>Tags</h4>
       <ul class="tag_box">
         {{# page.tags?to_tags }}
