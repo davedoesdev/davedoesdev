@@ -15,7 +15,7 @@ are killed.
 
 rkill.sh
 --------
-I've pulled code to do this out into a separate file, __rkill.sh__.
+I've pulled code to do this out into a separate file, [rkill.sh](https://gist.github.com/3808428#file_rkill.sh).
 It's listed below, but I've split it into sections here to make it easier to
 explain.
 
