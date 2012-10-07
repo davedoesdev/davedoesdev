@@ -21,7 +21,7 @@ xosdd
 -----
 
 [XOSD](http://sourceforge.net/projects/libxosd/) does the real work here.
-It displays text anywhere on your X desktop and it looks like an skool TV/VCR's
+It displays text anywhere on your X desktop and it looks like an old skool TV/VCR's
 display.
 
 XOSD is a library to build into your own projects. [xosdd](http://phintsan.kapsi.fi/xosdd.html) puts XOSD into a daemon which listens on a named pipe for
