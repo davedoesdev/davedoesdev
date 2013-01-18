@@ -27,7 +27,7 @@ display.
 XOSD is a library to build into your own projects. [xosdd](http://phintsan.kapsi.fi/xosdd.html) puts XOSD into a daemon which listens on a named pipe for
 commands using a custom protocol.
 
-I made a [2-line patch](https://gist.github.com/3847336#file_xosdd_0.0.patch) to xosdd in order to support display of text in the centre of the screen.
+I made a [2-line patch](https://gist.github.com/3847336#file-xosdd-0-0-patch) to xosdd in order to support display of text in the centre of the screen.
 
 First, I created some named pipes:
 
@@ -261,7 +261,7 @@ microphone level.
 Putting it all together
 -----------------------
 
-The complete script is [here](https://gist.github.com/3847759#file_vu_meter.sh). Remember you need to set __ctlIn__ and __ctlDelta__ for
+The complete script is [here](https://gist.github.com/3847759#file-vu-meter-sh). Remember you need to set __ctlIn__ and __ctlDelta__ for
 your device at the top.
 The script calls __rkill.sh__ from my [previous post](/script-cleanup)
 to clean things up at the end - press ^C or Enter to exit.

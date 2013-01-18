@@ -24,7 +24,7 @@ SVGALib
 
 It wasn't all plain sailing though. The first thing was to get SVGAlib compiling
 on a modern Linux distribution (let's assume Ubuntu here). Of course, I had
-to make some [patches](https://gist.github.com/3764135#file_svgalib_1.4.3.patch). There wasn't much to
+to make some [patches](https://gist.github.com/3764135#file-svgalib-1-4-3-patch). There wasn't much to
 fix:
 
 - Only build static libraries. I didn't need to use SVGAlib with anything else
@@ -38,7 +38,7 @@ fix:
 Zgv
 ---
 
-I also [patched](https://gist.github.com/3767626#file_zgv_5.9.patch) Zgv - not to fix compile errors, but to:
+I also [patched](https://gist.github.com/3767626#file-zgv-5-9-patch) Zgv - not to fix compile errors, but to:
 
 -   Support [LSS16](http://www.syslinux.org/wiki/index.php/SYSLINUX#Display_graphic_from_filename:)
     image files. LSS16 is an arbitrary format which Syslinux supports for
@@ -46,8 +46,8 @@ I also [patched](https://gist.github.com/3767626#file_zgv_5.9.patch) Zgv - not t
     on if I wanted to.
 
     I implemented the main logic for loading LSS16
-    images as separate [source](https://gist.github.com/3767626#file_readlss16.c)
-    and [header](https://gist.github.com/3767626#file_readlss16.h) files.
+    images as separate [source](https://gist.github.com/3767626#file-readlss16-c)
+    and [header](https://gist.github.com/3767626#file-readlss16-h) files.
 
 - Remove support for JPEG, PNG and TIFF images in Zgv. I didn't need these
   libraries so it was pointless to add them to Tiny Core Linux and load them

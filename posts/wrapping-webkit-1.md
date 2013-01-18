@@ -540,7 +540,7 @@ aren't built into Vala. They have to be defined separately. This is done by
 
 I won't go into the details here, but the hard
 work has already been done by Sam Thursfield and is available [here](http://gitorious.org/seed-vapi/seed-vapi/blobs/master/javascriptcore.vapi).
-I had to make a few patches, which are available [here](https://gist.github.com/4058053#file_javascriptcore.vapi.patch).
+I had to make a few patches, which are available [here](https://gist.github.com/4058053#file-javascriptcore-vapi-patch).
 
 Secondly, when you compile a Vala program, especially one which uses some
 complex types, it's fairly common to get warnings about const and type

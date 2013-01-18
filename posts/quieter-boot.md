@@ -47,7 +47,7 @@ Now, this all works well but I wanted to reduce the copious level of noise
 Syslinux
 --------
 
-Syslinux itself makes some noise. I had to [patch](https://gist.github.com/3748363#file_syslinux_4.03.patch) it to make it quiet. You can see the patch is mostly about supressing
+Syslinux itself makes some noise. I had to [patch](https://gist.github.com/3748363#file-syslinux-4-03-patch) it to make it quiet. You can see the patch is mostly about supressing
 __puts__ and __printf__. You can also see that the copyright notice is still
 displayed.
 
