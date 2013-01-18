@@ -122,7 +122,7 @@ which variable to put the argument. For our options:
     {
         { "url", 'u', 0, OptionArg.STRING, out url, "page to load", "URL" },
         { "fullscreen", 'f', 0, OptionArg.NONE, out fullscreen, "run in fullscreen mode", null },
-        { "hidecursor", 's', 0, OptionArg.NONE, out hidecursor, "hide mouse cursor", null },
+        { "hidecursor", 'h', 0, OptionArg.NONE, out hidecursor, "hide mouse cursor", null },
         { "debug", 'd', 0, OptionArg.NONE, out debug, "enable web developer tools", null },
         { null }
     };
