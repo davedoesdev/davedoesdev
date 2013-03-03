@@ -41,8 +41,8 @@ Vala's pretty interesting:
 
 What's not to like?!
 
-Example
-=======
+<a id="example"></a>Example
+===========================
 
 We'll have two classes in our example:
 
@@ -553,10 +553,10 @@ You can find all the source from this article [here](https://gist.github.com/405
 Makefile, a patched version of the Javascript VAPI file, my skanky workaround script
 and the test Web page described in the next section.
 
-Test Web page
--------------
+<a id="test_page"></a>Test Web page
+-----------------------------------
 
-Finally, let's take a look a Web page we can load into our example
+Finally, let's take a look at a Web page we can load into our example
 application. It needs to:
 
 - Call __app_getData__ periodically until it returns something other than the
