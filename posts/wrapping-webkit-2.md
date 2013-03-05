@@ -34,7 +34,7 @@ We'll support the same command line options: __url__, __fullscreen__,
 __hidecursor__ and __debug__.  Qt doesn't have a helper class to parse command
 line options so we'll use
 [TCLAP](http://tclap.sourceforge.net/), a nice small library for doing just
-that.
+that:
 
     TCLAP::CmdLine cmd("Webkit Example");
     TCLAP::ValueArg<std::string> urlArg("u", "url", "page to load", false, "file://" + QDir(a.applicationDirPath()).filePath("test.html").toStdString(), "URL", cmd);
@@ -88,7 +88,7 @@ Finally, we have to start the Qt application (i.e. the main event loop):
 This class is going to do the following:
 
 - Inherit from the Qt __QMainWindow__ class so it's a top-level window.
-- Apply settings and add widgets defined visually in Qt Creator, Qt's IDE.
+- Apply settings and add widgets defined visually in [Qt Creator](http://qt-project.org/wiki/Category:Tools::QtCreator), Qt's IDE.
   In our GTK+/Vala example, we did this ourselves in code. With Qt Creator,
   you can configure things like the window's size and add a Webkit component
   to it visually using a form designer.
