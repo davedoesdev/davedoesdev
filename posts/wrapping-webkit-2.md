@@ -353,7 +353,7 @@ inside a lock on __mutex__:
         this->data = data;
     }
 
-# Test Web page
+# <a id="test_page"></a>Test Web page
 
 To test our example, we can re-use the [Web page we used to test our Vala version](/wrapping-webkit-part-1-gtk%2B-vala#test_page), with a simple modification
 to call call __exit__ and __getData__ via __bridge__ rather than as separate
