@@ -1,5 +1,5 @@
 ---
-title: "Wrapping Webkit (Part 4 - Chromium/Bash)"
+title: "Wrapping Webkit (Part 4 - Chromium/Bash/inotify)"
 date: '2013-03-29'
 description:
 categories:
