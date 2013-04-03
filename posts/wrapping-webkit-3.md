@@ -46,21 +46,21 @@ in our application:
 You can see we turn Javascript on in Webkit and set the initial size. Next we
 declare a __bridge__ object for our HTML page to call:
 
-    javaScriptWindowObjects: QtObject
-    {
-        WebView.windowObjectName: "bridge";
-
-        function getData()
+        javaScriptWindowObjects: QtObject
         {
-            return the_bridge.getData();
-        }
+            WebView.windowObjectName: "bridge";
 
-        function exit(msg)
-        {
-            the_bridge.exit(msg);
+            function getData()
+            {
+                return the_bridge.getData();
+            }
+
+            function exit(msg)
+            {
+                the_bridge.exit(msg);
+            }
         }
     }
-}
 
 Notice a couple of things here:
 
