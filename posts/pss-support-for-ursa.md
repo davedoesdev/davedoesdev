@@ -3,7 +3,7 @@ title: "RSASSA-PSS in Node.js"
 date: '2013-05-04'
 description:
 categories:
-tags: [Node.js, crypto, RSA, PSS, OpenSSL]
+tags: [Node.js, crypto, RSA, RSASSA-PSS, OpenSSL]
 ---
 
 This post is about encoding schemes for RSA signatures. The Public-Key
