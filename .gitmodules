@@ -1,0 +1,3 @@
+[submodule "my_hooligan"]
+	path = my_hooligan
+	url = git@github.com:davedoesdev/hooligan.git
