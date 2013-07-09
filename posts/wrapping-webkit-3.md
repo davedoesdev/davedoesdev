@@ -1,7 +1,7 @@
 ---
 title: "Wrapping Webkit (Part 3 - Qt Quick/Python)"
 date: '2013-03-23'
-description:
+description: Embedding a Web user interface in a Python program
 categories:
 tags: [webkit, html, javascript, qt, qt quick, qml, python]
 ---

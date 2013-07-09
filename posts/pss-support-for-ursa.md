@@ -1,7 +1,7 @@
 ---
 title: "RSASSA-PSS in Node.js"
 date: '2013-05-04'
-description:
+description: Exposing RSASSA-PSS and RSASSA-PKCS1 to Node.js programs by modifying the ursa module
 categories:
 tags: [Node.js, crypto, RSA, RSASSA-PSS, OpenSSL]
 ---

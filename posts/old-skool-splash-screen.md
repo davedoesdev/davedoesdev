@@ -1,7 +1,7 @@
 ---
 title: Old Skool Splash Screen
 date: '2012-09-22'
-description:
+description: How to display a splash screen without using new-fangled things like Uslash or Splashy
 categories:
 tags: [boot, svgalib, graphics, tinycorelinux]
 ---

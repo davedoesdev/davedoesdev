@@ -1,7 +1,7 @@
 ---
 title: "Wrapping Webkit (Part 1 - GTK+/Vala)"
 date: '2012-11-10'
-description:
+description: Embedding a Web user interface in a Vala application
 categories:
 tags: [webkit, html, javascript, gtk, vala]
 ---

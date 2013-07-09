@@ -1,7 +1,7 @@
 ---
 title: Script Cleanup
 date: '2012-09-29'
-description:
+description: A script which kills a process and all its descendants
 categories:
 tags: [script, linux, bash]
 ---

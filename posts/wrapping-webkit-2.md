@@ -1,7 +1,7 @@
 ---
 title: "Wrapping Webkit (Part 2 - Qt/C++)"
 date: '2013-01-27'
-description:
+description: Embedding a Web user interface in a C++ application
 categories:
 tags: [webkit, html, javascript, qt, c++]
 ---

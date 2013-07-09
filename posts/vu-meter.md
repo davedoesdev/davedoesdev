@@ -1,9 +1,9 @@
 ---
 title: Vu Meter
 date: '2012-10-07'
-description:
+description: Writing a microphone level meter in Linux which looks like an old TV or VCR's volume display
 categories:
-tags: []
+tags: [audio, linux, xosd]
 ---
 
 I wanted a large on-screen volume indicator showing:

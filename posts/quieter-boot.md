@@ -1,7 +1,7 @@
 ---
 title: Quieter Boot
 date: '2012-09-16'
-description:
+description: How to reduce boot messages in Syslinux, FreeDOS, kexec-loader and Tiny Core Linux
 categories:
 tags: [boot, syslinux, freedos, usb, kexec-loader, tinycorelinux]
 ---
