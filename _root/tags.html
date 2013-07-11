@@ -3,15 +3,14 @@ description:
 ---
 
 <ul class="tag_box inline">
-{{# tags }}
+{{# posts.tags.all }}
   {{> tags_list }}
-{{/ tags }}
+{{/ posts.tags.all }}
 </ul>
 
-
-{{# tags }}
-  <h2 id="{{name}}-ref">{{name}}</h2>
+{{# posts.tags.all }}
+  <h3 id="{{name}}-ref">{{name}}</h3>
   {{# posts?to_posts }}
     <li><a href="{{url}}">{{title}}</a></li>
   {{/ posts?to_posts }}
-{{/ tags }} 
+{{/ posts.tags.all }} 

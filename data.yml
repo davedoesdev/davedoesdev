@@ -1,14 +1,15 @@
 title : Dave Does Dev
-tagline:
 author :
   name : David Halls
   email : dave@davedoesdev.com
   github : davedoesdev
   twitter : davedoesdev
   linkedin: dhalls
+  #feedburner : feedname
 
 navigation :
-  - archive.html
-  - tags.html
-  - about.md
-  
+  - archive
+  - tags
+#  - categories
+#  - pages
+  - about
