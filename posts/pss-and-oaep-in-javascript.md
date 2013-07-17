@@ -1,9 +1,9 @@
 ---
 title: RSSSSA-PSS and RSAES-OAEP in Javascript
 date: '2013-07-06'
-description:
+description: Implementations of RSSSSA-PSS and RSAES-OAEP in Javascript, with some help from giants
 categories:
-tags: [javascript, crypto, RSA, RSASSA-PSS, RSAES-OAEP]
+tags: [javascript, crypto, RSA, RSASSA-PSS, RSAES-OAEP, jsjws]
 ---
 
 [Last time out](/rsassa-pss-in-node-js), I added support for [RSASSA-PSS](http://tools.ietf.org/html/rfc3447#section-8.1) encoded signatures to the [ursa](https://github.com/Obvious/ursa) Node.js module. The code I added exposes the OpenSSL implementation of RSASSA-PSS to Node.js programs. [RFC 3447](http://tools.ietf.org/html/rfc3447) recommends new applications use RSASSA-PSS instead of the older RSASSA-PKCS1-v1_5 scheme.
