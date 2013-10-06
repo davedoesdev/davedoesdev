@@ -18,6 +18,9 @@ production_url: "http://www.davedoesdev.com"
 # NOTE: base_path is never added in development mode (for convenience).
 base_path: "/"
 
+img:
+  use: "media"
+
 # Tell ruhoh which folder will model the "theme"
 my_hooligan:
   # Tells ruhoh which collection class to use for this folder.
