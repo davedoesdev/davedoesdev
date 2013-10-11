@@ -1,9 +1,9 @@
 ---
 title: "JSON Web Signatures on Node.js"
 date: '2013-10-09'
-description:
+description: 'node-jsjws: A Node.js wrapper around jsjws'
 categories:
-tags: []
+tags: [javascript, Node.js, crypto, JWS, JWT, jsjws, node-jsjws]
 ---
 
 My [previous article](/rssssa-pss-and-rsaes-oaep-in-javascript) was really
