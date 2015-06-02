@@ -55,7 +55,7 @@ for k in payload: assert claims[k] == payload[k]
 
 The expiry time of the token is set to 5 minutes.
 
-The [API documentation](http://githubraw.herokuapp.com/davedoesdev/python-jwt/master/docs/_build/html/index.html) is linked to from the [python-jwt homepage](https://github.com/davedoesdev/python-jwt). __python-jwt__ comes with
+The [API documentation](http://rawgit.davedoesdev.com/davedoesdev/python-jwt/master/docs/_build/html/index.html) is linked to from the [python-jwt homepage](https://github.com/davedoesdev/python-jwt). __python-jwt__ comes with
 a full set of unit tests (including interoperability with __node-jsjws__) and some
 benchmarks.
 
