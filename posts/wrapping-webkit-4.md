@@ -4,6 +4,7 @@ date: '2013-03-29'
 description: Communicating with Chromium from a shell script
 categories:
 tags: [webkit, html, javascript, chromium, bash, inotify]
+permalink: "wrapping-webkit-part-4-chromium-bash-inotify"
 ---
 
 This is the last in my short series about getting data into and out of a

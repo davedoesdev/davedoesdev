@@ -4,6 +4,7 @@ date: '2012-11-10'
 description: Embedding a Web user interface in a Vala application
 categories:
 tags: [webkit, html, javascript, gtk, vala]
+permalink: "wrapping-webkit-part-1-gtk+-vala"
 ---
 
 I wanted to write a user interface in HTML and Javascript but run the rest of

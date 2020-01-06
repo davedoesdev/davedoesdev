@@ -4,6 +4,7 @@ date: '2013-01-27'
 description: Embedding a Web user interface in a C++ application
 categories:
 tags: [webkit, html, javascript, qt, c++]
+permalink: "wrapping-webkit-part-2-qt-c++"
 ---
 
 In my [previous post](/wrapping-webkit-part-1-gtk%2B-vala), I showed how to

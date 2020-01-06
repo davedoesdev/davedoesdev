@@ -4,6 +4,7 @@ date: '2013-03-23'
 description: Embedding a Web user interface in a Python program
 categories:
 tags: [webkit, html, javascript, qt, qt quick, qml, python]
+permalink: "wrapping-webkit-part-3-qt-quick-python"
 ---
 
 [Last time out](/wrapping-webkit-part-2-qt-c%2B%2B), I showed how to get
