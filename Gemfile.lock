@@ -4,7 +4,7 @@ GEM
     directory_watcher (1.4.1)
     mini_portile2 (2.4.0)
     mustache (0.99.8)
-    nokogiri (1.10.7)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     rack (1.6.12)
     redcarpet (2.3.0)
