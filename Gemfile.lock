@@ -4,15 +4,15 @@ GEM
     directory_watcher (1.4.1)
     mini_portile2 (2.4.0)
     mustache (0.99.8)
-    nokogiri (1.10.8)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    rack (1.6.13)
+    rack (2.2.3)
     redcarpet (2.3.0)
     ruhoh (2.6)
       directory_watcher (~> 1.4.0)
       mustache (~> 0.99)
       nokogiri (~> 1.5)
-      rack (~> 1.4)
+      rack (>= 2.2.3)
       redcarpet (~> 2.1)
 
 PLATFORMS
@@ -22,4 +22,4 @@ DEPENDENCIES
   ruhoh (~> 2)
 
 BUNDLED WITH
-   2.1.3
+   2.1.4
