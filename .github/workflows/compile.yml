@@ -16,7 +16,7 @@ jobs:
           ruby-version: 2.7
 
       - name: Install gems
-        run: bundle install
+        run: bundle install --full-index
 
       - name: Compile
         run: ./compile.sh
