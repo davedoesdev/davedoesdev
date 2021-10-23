@@ -1,3 +1,3 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-ruhoh compile
+bundle exec ruhoh compile
