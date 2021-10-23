@@ -9,7 +9,7 @@ GEM
       racc (~> 1.4)
     racc (1.6.0)
     rack (2.2.3)
-    redcarpet (2.3.0)
+    redcarpet (3.5.1)
     ruhoh (2.6)
       directory_watcher (~> 1.4.0)
       mustache (~> 0.99)
