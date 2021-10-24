@@ -21,7 +21,8 @@ jobs:
         run: |
           bundle install || bundle update ruhoh
           gem list
-          find / -name ruhoh-2.6
+          find . -name ruhoh-2.6
+          sudo find / -name ruhoh-2.6
 
       - name: Compile
         run: ./compile.sh
