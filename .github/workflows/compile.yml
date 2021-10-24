@@ -20,6 +20,7 @@ jobs:
       - name: Install gems
         run: |
           bundle install || bundle update ruhoh
+          gem uninstall redcarpet -v 2.3.0
           gem list
 
       - name: Compile
