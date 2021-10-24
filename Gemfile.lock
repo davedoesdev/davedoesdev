@@ -8,13 +8,13 @@ GEM
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     racc (1.6.0)
-    rack (2.2.3)
-    redcarpet (3.5.1)
+    rack (1.6.13)
+    redcarpet (2.3.0)
     ruhoh (2.6)
       directory_watcher (~> 1.4.0)
       mustache (~> 0.99)
       nokogiri (~> 1.5)
-      rack (>= 2.2.3)
+      rack (~> 1.4)
       redcarpet (~> 2.1)
 
 PLATFORMS
