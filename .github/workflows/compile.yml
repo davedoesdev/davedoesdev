@@ -20,9 +20,6 @@ jobs:
       - name: Install gems
         run: |
           bundle install || bundle update ruhoh
-          gem list
-          ls /opt/hostedtoolcache/Ruby/2.7.4/x64/lib/ruby/gems/2.7.0/gems/ruhoh-2.6
-          cat /opt/hostedtoolcache/Ruby/2.7.4/x64/lib/ruby/gems/2.7.0/gems/ruhoh-2.6/Gemfile
 
       - name: Compile
         run: ./compile.sh
