@@ -2,10 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     directory_watcher (1.4.1)
-    mini_portile2 (2.6.1)
+    mini_portile2 (2.8.0)
     mustache (0.99.8)
-    nokogiri (1.12.5)
-      mini_portile2 (~> 2.6.1)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     racc (1.6.0)
     rack (2.1.4)
