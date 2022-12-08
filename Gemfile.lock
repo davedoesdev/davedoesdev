@@ -3,17 +3,17 @@ GEM
   specs:
     directory_watcher (1.4.1)
     mustache (0.99.8)
-    nokogiri (1.13.8-x86_64-linux)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
-    racc (1.6.0)
-    rack (3.0.0)
-    redcarpet (3.5.1)
+    racc (1.6.1)
+    rack (1.6.13)
+    redcarpet (2.3.0)
     ruhoh (2.6)
       directory_watcher (~> 1.4.0)
       mustache (~> 0.99)
       nokogiri (~> 1.5)
-      rack (>= 3.0.0)
-      redcarpet (>= 3.5.1)
+      rack (~> 1.4)
+      redcarpet (~> 2.1)
 
 PLATFORMS
   x86_64-linux
